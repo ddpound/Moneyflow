@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: MoneyFlow
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/youseong?currentSchema=yblog}
+    username: ${DB_USERNAME:youseongjung}
+    password: ${DB_PASSWORD:}
